@@ -20,7 +20,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
 from app.main import app
-from app.database.session import Base, get_db
+from app.database.session import Base, get_db, normalize_database_url
 from app.core.security import get_password_hash
 from app.models import User, Department, Semester, Teacher, Student, Subject, GradingRule
 
@@ -90,6 +90,15 @@ def setup_test_db():
 
 
 client = TestClient(app)
+
+
+def test_postgres_database_url_uses_installed_driver():
+    assert normalize_database_url(
+        "postgresql://user:pass@db.example/test"
+    ) == "postgresql+psycopg2://user:pass@db.example/test"
+    assert normalize_database_url(
+        "postgres://user:pass@db.example/test"
+    ) == "postgresql+psycopg2://user:pass@db.example/test"
 
 
 def get_token(email, password):
