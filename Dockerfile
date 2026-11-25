@@ -23,6 +23,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY backend/app ./app
 COPY backend/ml_models ./ml_models
+COPY scripts ./scripts
+COPY data ./data
 COPY --from=frontend-build /frontend/dist /usr/share/nginx/html
 COPY deploy/nginx.conf.template /etc/nginx/templates/default.conf.template
 COPY deploy/supervisord.conf /etc/supervisor/conf.d/edutrack.conf

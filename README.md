@@ -61,6 +61,12 @@ Configure these production environment variables in the hosting dashboard:
 
 The service serves the frontend at `/`, API endpoints at `/api`, and API documentation at `/api/docs`.
 
+### Deploy to Render
+
+The repository includes a Render Blueprint in `render.yaml`. In Render, choose **New → Blueprint**, connect this repository and select the `main` branch. The Blueprint creates the Docker web service and PostgreSQL database, generates a `SECRET_KEY`, and seeds synthetic demo accounts/data on first startup.
+
+The Blueprint uses Render's free plans, which may have sleep, resource, backup, or database-retention limitations. For persistent production use, select an appropriate paid PostgreSQL plan and disable `SEED_DEMO_DATA` after the demo database has been initialized. Demo credentials are listed above; do not use these accounts for real student data.
+
 ## Database and Migrations
 
 Local SQLite is configured by default:
