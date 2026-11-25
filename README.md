@@ -49,6 +49,18 @@ docker compose up --build
 
 Open `http://localhost:3000`.
 
+### Single-container deployment platforms
+
+The root `Dockerfile` builds the React frontend and runs it with the FastAPI backend behind Nginx in one container. For platforms such as Render that build from the repository root, select the Docker runtime, use the repository root as the build context, and set the service's port to `10000` (or let the platform provide `PORT`).
+
+Configure these production environment variables in the hosting dashboard:
+
+- `SECRET_KEY`: a long, unique random value
+- `DATABASE_URL`: a managed PostgreSQL connection URL; do not rely on the container's local SQLite file for persistent production data
+- `CORS_ORIGINS`: JSON array of allowed frontend origins if the API is accessed cross-origin
+
+The service serves the frontend at `/`, API endpoints at `/api`, and API documentation at `/api/docs`.
+
 ## Database and Migrations
 
 Local SQLite is configured by default:
