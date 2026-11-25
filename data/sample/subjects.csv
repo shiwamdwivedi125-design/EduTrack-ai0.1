@@ -1,0 +1,61 @@
+code,name,department_code,semester_number,credits
+CSE101,Engineering Mathematics I,CSE,1,4
+CSE102,Programming Fundamentals (C),CSE,1,4
+CSE103,Digital Logic Design,CSE,1,3
+CSE104,English Communication,CSE,1,2
+CSE105,Engineering Physics,CSE,1,3
+CSE201,Data Structures,CSE,2,4
+CSE202,Object Oriented Programming,CSE,2,4
+CSE203,Discrete Mathematics,CSE,2,3
+CSE204,Computer Organization,CSE,2,3
+CSE205,Engineering Mathematics II,CSE,2,4
+CSE301,Algorithms & Complexity,CSE,3,4
+CSE302,Database Management Systems,CSE,3,4
+CSE303,Operating Systems,CSE,3,4
+CSE304,Computer Networks,CSE,3,3
+CSE305,Software Engineering,CSE,3,3
+CSE401,Compiler Design,CSE,4,4
+CSE402,Artificial Intelligence,CSE,4,4
+CSE403,Web Technologies,CSE,4,3
+CSE404,Information Security,CSE,4,3
+CSE405,Mini Project,CSE,4,2
+ECE101,Engineering Mathematics I,ECE,1,4
+ECE102,Basic Electronics,ECE,1,4
+ECE103,Circuit Theory,ECE,1,3
+ECE104,English Communication,ECE,1,2
+ECE105,Engineering Physics,ECE,1,3
+ECE201,Electronic Devices,ECE,2,4
+ECE202,Network Theory,ECE,2,4
+ECE203,Signals & Systems,ECE,2,4
+ECE204,Digital Electronics,ECE,2,3
+ECE205,Engineering Mathematics II,ECE,2,3
+ECE301,Analog Circuits,ECE,3,4
+ECE302,Communication Systems,ECE,3,4
+ECE303,Microprocessors,ECE,3,4
+ECE304,Electromagnetics,ECE,3,3
+ECE305,Control Systems,ECE,3,3
+ECE401,VLSI Design,ECE,4,4
+ECE402,Digital Signal Processing,ECE,4,4
+ECE403,Wireless Communication,ECE,4,3
+ECE404,Embedded Systems,ECE,4,3
+ECE405,Mini Project,ECE,4,2
+MECH101,Engineering Mathematics I,MECH,1,4
+MECH102,Engineering Drawing,MECH,1,3
+MECH103,Engineering Physics,MECH,1,3
+MECH104,English Communication,MECH,1,2
+MECH105,Workshop Technology,MECH,1,3
+MECH201,Engineering Mathematics II,MECH,2,4
+MECH202,Strength of Materials,MECH,2,4
+MECH203,Thermodynamics,MECH,2,4
+MECH204,Manufacturing Processes,MECH,2,3
+MECH205,Fluid Mechanics,MECH,2,3
+MECH301,Machine Design,MECH,3,4
+MECH302,Heat Transfer,MECH,3,4
+MECH303,Dynamics of Machinery,MECH,3,4
+MECH304,Metrology & Quality Control,MECH,3,3
+MECH305,Industrial Engineering,MECH,3,3
+MECH401,CAD/CAM,MECH,4,4
+MECH402,Robotics & Automation,MECH,4,4
+MECH403,Refrigeration & AC,MECH,4,3
+MECH404,Power Plant Engineering,MECH,4,3
+MECH405,Mini Project,MECH,4,2

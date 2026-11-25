@@ -1,0 +1,14 @@
+{
+  "features": [
+    "attendance",
+    "previous_cgpa",
+    "avg_internal_percentage"
+  ],
+  "importance": [
+    0.3368,
+    0.3503,
+    0.313
+  ],
+  "model": "Logistic Regression",
+  "note": "Feature importance from trained model on synthetic data"
+}

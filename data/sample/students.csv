@@ -1,0 +1,201 @@
+id,name,email,student_id,roll_number,department_id,department_code,branch,current_semester,admission_year,academic_session,phone
+1,Jay Verma,jay.verma.s1@edu.example.com,CSE2023001,CSE/2023/001,1,CSE,Computer Science & Engineering,4,2023,2023-2027,9362950628
+2,Lalit Kumar,lalit.kumar.s2@edu.example.com,CSE2023002,CSE/2023/002,1,CSE,Computer Science & Engineering,4,2023,2023-2027,9134126396
+3,Ashish Verma,ashish.verma.s3@edu.example.com,CSE2023003,CSE/2023/003,1,CSE,Computer Science & Engineering,3,2023,2023-2027,9868820204
+4,Sanjeev Srivastava,sanjeev.srivastava.s4@edu.example.com,CSE2021004,CSE/2021/004,1,CSE,Computer Science & Engineering,7,2021,2021-2025,9849621470
+5,Raj Malhotra,raj.malhotra.s5@edu.example.com,CSE2021005,CSE/2021/005,1,CSE,Computer Science & Engineering,7,2021,2021-2025,9507943839
+6,Suresh Patel,suresh.patel.s6@edu.example.com,CSE2023006,CSE/2023/006,1,CSE,Computer Science & Engineering,4,2023,2023-2027,9675770529
+7,Vikram Das,vikram.das.s7@edu.example.com,CSE2023007,CSE/2023/007,1,CSE,Computer Science & Engineering,3,2023,2023-2027,9856528252
+8,Vikram Kumar,vikram.kumar.s8@edu.example.com,CSE2021008,CSE/2021/008,1,CSE,Computer Science & Engineering,7,2021,2021-2025,9508157429
+9,Mohit Das,mohit.das.s9@edu.example.com,CSE2022009,CSE/2022/009,1,CSE,Computer Science & Engineering,5,2022,2022-2026,9819595113
+10,Jatin Pandey,jatin.pandey.s10@edu.example.com,CSE2021010,CSE/2021/010,1,CSE,Computer Science & Engineering,8,2021,2021-2025,9507437181
+11,Chirag Shah,chirag.shah.s11@edu.example.com,CSE2021011,CSE/2021/011,1,CSE,Computer Science & Engineering,8,2021,2021-2025,9530747414
+12,Ananya Mehta,ananya.mehta.s12@edu.example.com,CSE2023012,CSE/2023/012,1,CSE,Computer Science & Engineering,4,2023,2023-2027,9524806516
+13,Sanjay Yadav,sanjay.yadav.s13@edu.example.com,CSE2023013,CSE/2023/013,1,CSE,Computer Science & Engineering,4,2023,2023-2027,9902099969
+14,Payal Shah,payal.shah.s14@edu.example.com,CSE2021014,CSE/2021/014,1,CSE,Computer Science & Engineering,8,2021,2021-2025,9197613238
+15,Komal Singh,komal.singh.s15@edu.example.com,CSE2022015,CSE/2022/015,1,CSE,Computer Science & Engineering,6,2022,2022-2026,9739830322
+16,Aditya Mishra,aditya.mishra.s16@edu.example.com,CSE2023016,CSE/2023/016,1,CSE,Computer Science & Engineering,4,2023,2023-2027,9925276600
+17,Mohit Dey,mohit.dey.s17@edu.example.com,CSE2021017,CSE/2021/017,1,CSE,Computer Science & Engineering,8,2021,2021-2025,9637500247
+18,Ashish Rao,ashish.rao.s18@edu.example.com,CSE2021018,CSE/2021/018,1,CSE,Computer Science & Engineering,8,2021,2021-2025,9918739736
+19,Aarav Kapoor,aarav.kapoor.s19@edu.example.com,CSE2022019,CSE/2022/019,1,CSE,Computer Science & Engineering,5,2022,2022-2026,9220117054
+20,Sachin Thakur,sachin.thakur.s20@edu.example.com,CSE2021020,CSE/2021/020,1,CSE,Computer Science & Engineering,7,2021,2021-2025,9885879795
+21,Karan Reddy,karan.reddy.s21@edu.example.com,CSE2023021,CSE/2023/021,1,CSE,Computer Science & Engineering,4,2023,2023-2027,9690347116
+22,Komal Mehta,komal.mehta.s22@edu.example.com,CSE2023022,CSE/2023/022,1,CSE,Computer Science & Engineering,3,2023,2023-2027,9865523129
+23,Ritesh Tripathi,ritesh.tripathi.s23@edu.example.com,CSE2022023,CSE/2022/023,1,CSE,Computer Science & Engineering,5,2022,2022-2026,9366186631
+24,Sanjeev Yadav,sanjeev.yadav.s24@edu.example.com,CSE2021024,CSE/2021/024,1,CSE,Computer Science & Engineering,7,2021,2021-2025,9107721109
+25,Arjun Malhotra,arjun.malhotra.s25@edu.example.com,CSE2021025,CSE/2021/025,1,CSE,Computer Science & Engineering,7,2021,2021-2025,9399012686
+26,Rakesh Thakur,rakesh.thakur.s26@edu.example.com,CSE2022026,CSE/2022/026,1,CSE,Computer Science & Engineering,5,2022,2022-2026,9942478695
+27,Harsh Ghosh,harsh.ghosh.s27@edu.example.com,CSE2022027,CSE/2022/027,1,CSE,Computer Science & Engineering,6,2022,2022-2026,9541417711
+28,Chirag Mukherjee,chirag.mukherjee.s28@edu.example.com,CSE2023028,CSE/2023/028,1,CSE,Computer Science & Engineering,4,2023,2023-2027,9959629660
+29,Jatin Banerjee,jatin.banerjee.s29@edu.example.com,CSE2021029,CSE/2021/029,1,CSE,Computer Science & Engineering,8,2021,2021-2025,9297018781
+30,Ritesh Yadav,ritesh.yadav.s30@edu.example.com,CSE2021030,CSE/2021/030,1,CSE,Computer Science & Engineering,7,2021,2021-2025,9800235246
+31,Nikhil Sen,nikhil.sen.s31@edu.example.com,CSE2022031,CSE/2022/031,1,CSE,Computer Science & Engineering,6,2022,2022-2026,9329509408
+32,Aarav Chatterjee,aarav.chatterjee.s32@edu.example.com,CSE2022032,CSE/2022/032,1,CSE,Computer Science & Engineering,6,2022,2022-2026,9406284028
+33,Manish Rao,manish.rao.s33@edu.example.com,CSE2022033,CSE/2022/033,1,CSE,Computer Science & Engineering,5,2022,2022-2026,9162795957
+34,Chirag Gupta,chirag.gupta.s34@edu.example.com,CSE2023034,CSE/2023/034,1,CSE,Computer Science & Engineering,4,2023,2023-2027,9639931481
+35,Dhruv Iyer,dhruv.iyer.s35@edu.example.com,CSE2021035,CSE/2021/035,1,CSE,Computer Science & Engineering,7,2021,2021-2025,9825003955
+36,Sanjay Rathore,sanjay.rathore.s36@edu.example.com,CSE2023036,CSE/2023/036,1,CSE,Computer Science & Engineering,3,2023,2023-2027,9765055833
+37,Piyush Tripathi,piyush.tripathi.s37@edu.example.com,CSE2022037,CSE/2022/037,1,CSE,Computer Science & Engineering,6,2022,2022-2026,9319321646
+38,Karan Khanna,karan.khanna.s38@edu.example.com,CSE2022038,CSE/2022/038,1,CSE,Computer Science & Engineering,6,2022,2022-2026,9907308348
+39,Piyush Joshi,piyush.joshi.s39@edu.example.com,CSE2021039,CSE/2021/039,1,CSE,Computer Science & Engineering,7,2021,2021-2025,9643189555
+40,Sanjay Das,sanjay.das.s40@edu.example.com,CSE2022040,CSE/2022/040,1,CSE,Computer Science & Engineering,5,2022,2022-2026,9570497096
+41,Aditya Yadav,aditya.yadav.s41@edu.example.com,CSE2022041,CSE/2022/041,1,CSE,Computer Science & Engineering,5,2022,2022-2026,9244193987
+42,Manish Srivastava,manish.srivastava.s42@edu.example.com,CSE2022042,CSE/2022/042,1,CSE,Computer Science & Engineering,5,2022,2022-2026,9870530217
+43,Ashish Jain,ashish.jain.s43@edu.example.com,CSE2022043,CSE/2022/043,1,CSE,Computer Science & Engineering,5,2022,2022-2026,9199104722
+44,Diya Reddy,diya.reddy.s44@edu.example.com,CSE2023044,CSE/2023/044,1,CSE,Computer Science & Engineering,4,2023,2023-2027,9273497327
+45,Naresh Sharma,naresh.sharma.s45@edu.example.com,CSE2021045,CSE/2021/045,1,CSE,Computer Science & Engineering,7,2021,2021-2025,9841976666
+46,Ramesh Yadav,ramesh.yadav.s46@edu.example.com,CSE2021046,CSE/2021/046,1,CSE,Computer Science & Engineering,8,2021,2021-2025,9236843584
+47,Nisha Mehta,nisha.mehta.s47@edu.example.com,CSE2023047,CSE/2023/047,1,CSE,Computer Science & Engineering,3,2023,2023-2027,9816114302
+48,Neha Nair,neha.nair.s48@edu.example.com,CSE2021048,CSE/2021/048,1,CSE,Computer Science & Engineering,7,2021,2021-2025,9958872154
+49,Diya Sen,diya.sen.s49@edu.example.com,CSE2023049,CSE/2023/049,1,CSE,Computer Science & Engineering,3,2023,2023-2027,9386480450
+50,Ajay Shah,ajay.shah.s50@edu.example.com,CSE2021050,CSE/2021/050,1,CSE,Computer Science & Engineering,8,2021,2021-2025,9475442872
+51,Priya Mukherjee,priya.mukherjee.s51@edu.example.com,CSE2022051,CSE/2022/051,1,CSE,Computer Science & Engineering,6,2022,2022-2026,9174539964
+52,Vidya Dubey,vidya.dubey.s52@edu.example.com,CSE2022052,CSE/2022/052,1,CSE,Computer Science & Engineering,5,2022,2022-2026,9223847257
+53,Arjun Joshi,arjun.joshi.s53@edu.example.com,CSE2023053,CSE/2023/053,1,CSE,Computer Science & Engineering,4,2023,2023-2027,9471178705
+54,Jay Chatterjee,jay.chatterjee.s54@edu.example.com,CSE2023054,CSE/2023/054,1,CSE,Computer Science & Engineering,3,2023,2023-2027,9373506211
+55,Jatin Rao,jatin.rao.s55@edu.example.com,CSE2022055,CSE/2022/055,1,CSE,Computer Science & Engineering,6,2022,2022-2026,9175133802
+56,Vishal Saxena,vishal.saxena.s56@edu.example.com,CSE2022056,CSE/2022/056,1,CSE,Computer Science & Engineering,6,2022,2022-2026,9450236225
+57,Priya Sen,priya.sen.s57@edu.example.com,CSE2023057,CSE/2023/057,1,CSE,Computer Science & Engineering,4,2023,2023-2027,9827264603
+58,Manoj Sharma,manoj.sharma.s58@edu.example.com,CSE2022058,CSE/2022/058,1,CSE,Computer Science & Engineering,6,2022,2022-2026,9325681936
+59,Vinay Banerjee,vinay.banerjee.s59@edu.example.com,CSE2022059,CSE/2022/059,1,CSE,Computer Science & Engineering,5,2022,2022-2026,9648868899
+60,Varun Saxena,varun.saxena.s60@edu.example.com,CSE2023060,CSE/2023/060,1,CSE,Computer Science & Engineering,4,2023,2023-2027,9200273738
+61,Kunal Verma,kunal.verma.s61@edu.example.com,CSE2021061,CSE/2021/061,1,CSE,Computer Science & Engineering,7,2021,2021-2025,9610173760
+62,Rakesh Rao,rakesh.rao.s62@edu.example.com,CSE2023062,CSE/2023/062,1,CSE,Computer Science & Engineering,4,2023,2023-2027,9630833445
+63,Ishaan Ghosh,ishaan.ghosh.s63@edu.example.com,CSE2021063,CSE/2021/063,1,CSE,Computer Science & Engineering,7,2021,2021-2025,9963406382
+64,Sanjay Mishra,sanjay.mishra.s64@edu.example.com,CSE2022064,CSE/2022/064,1,CSE,Computer Science & Engineering,5,2022,2022-2026,9960514523
+65,Ananya Banerjee,ananya.banerjee.s65@edu.example.com,CSE2023065,CSE/2023/065,1,CSE,Computer Science & Engineering,4,2023,2023-2027,9991816852
+66,Sumit Tiwari,sumit.tiwari.s66@edu.example.com,CSE2021066,CSE/2021/066,1,CSE,Computer Science & Engineering,8,2021,2021-2025,9922286180
+67,Uday Banerjee,uday.banerjee.s67@edu.example.com,CSE2021067,CSE/2021/067,1,CSE,Computer Science & Engineering,8,2021,2021-2025,9351785565
+68,Dhruv Reddy,dhruv.reddy.s68@edu.example.com,CSE2021068,CSE/2021/068,1,CSE,Computer Science & Engineering,7,2021,2021-2025,9511281012
+69,Neha Malhotra,neha.malhotra.s69@edu.example.com,CSE2023069,CSE/2023/069,1,CSE,Computer Science & Engineering,4,2023,2023-2027,9546434187
+70,Swati Rathore,swati.rathore.s70@edu.example.com,CSE2023070,CSE/2023/070,1,CSE,Computer Science & Engineering,3,2023,2023-2027,9922050912
+71,Nisha Khanna,nisha.khanna.s71@edu.example.com,ECE2022001,ECE/2022/001,2,ECE,Electronics & Communication,6,2022,2022-2026,9677909930
+72,Tanvi Ghosh,tanvi.ghosh.s72@edu.example.com,ECE2022002,ECE/2022/002,2,ECE,Electronics & Communication,5,2022,2022-2026,9517532243
+73,Vinay Reddy,vinay.reddy.s73@edu.example.com,ECE2023003,ECE/2023/003,2,ECE,Electronics & Communication,3,2023,2023-2027,9523076025
+74,Dhruv Ghosh,dhruv.ghosh.s74@edu.example.com,ECE2021004,ECE/2021/004,2,ECE,Electronics & Communication,8,2021,2021-2025,9295130056
+75,Raj Dey,raj.dey.s75@edu.example.com,ECE2022005,ECE/2022/005,2,ECE,Electronics & Communication,6,2022,2022-2026,9917364173
+76,Sneha Kumar,sneha.kumar.s76@edu.example.com,ECE2022006,ECE/2022/006,2,ECE,Electronics & Communication,5,2022,2022-2026,9904258674
+77,Deepak Patel,deepak.patel.s77@edu.example.com,ECE2021007,ECE/2021/007,2,ECE,Electronics & Communication,7,2021,2021-2025,9314061901
+78,Ajay Mishra,ajay.mishra.s78@edu.example.com,ECE2023008,ECE/2023/008,2,ECE,Electronics & Communication,3,2023,2023-2027,9599326438
+79,Sunil Mishra,sunil.mishra.s79@edu.example.com,ECE2021009,ECE/2021/009,2,ECE,Electronics & Communication,8,2021,2021-2025,9216070149
+80,Sakshi Mukherjee,sakshi.mukherjee.s80@edu.example.com,ECE2023010,ECE/2023/010,2,ECE,Electronics & Communication,3,2023,2023-2027,9181600593
+81,Shyam Mishra,shyam.mishra.s81@edu.example.com,ECE2023011,ECE/2023/011,2,ECE,Electronics & Communication,3,2023,2023-2027,9472807202
+82,Deepak Saxena,deepak.saxena.s82@edu.example.com,ECE2023012,ECE/2023/012,2,ECE,Electronics & Communication,4,2023,2023-2027,9113585139
+83,Payal Dey,payal.dey.s83@edu.example.com,ECE2023013,ECE/2023/013,2,ECE,Electronics & Communication,3,2023,2023-2027,9567600762
+84,Tushar Dubey,tushar.dubey.s84@edu.example.com,ECE2022014,ECE/2022/014,2,ECE,Electronics & Communication,6,2022,2022-2026,9567694547
+85,Gaurav Srivastava,gaurav.srivastava.s85@edu.example.com,ECE2022015,ECE/2022/015,2,ECE,Electronics & Communication,5,2022,2022-2026,9905817775
+86,Kavya Verma,kavya.verma.s86@edu.example.com,ECE2022016,ECE/2022/016,2,ECE,Electronics & Communication,6,2022,2022-2026,9295249057
+87,Kavya Srivastava,kavya.srivastava.s87@edu.example.com,ECE2023017,ECE/2023/017,2,ECE,Electronics & Communication,4,2023,2023-2027,9696776072
+88,Sachin Sen,sachin.sen.s88@edu.example.com,ECE2022018,ECE/2022/018,2,ECE,Electronics & Communication,5,2022,2022-2026,9841536135
+89,Gaurav Agarwal,gaurav.agarwal.s89@edu.example.com,ECE2021019,ECE/2021/019,2,ECE,Electronics & Communication,8,2021,2021-2025,9842800803
+90,Radha Desai,radha.desai.s90@edu.example.com,ECE2023020,ECE/2023/020,2,ECE,Electronics & Communication,4,2023,2023-2027,9556881239
+91,Tanvi Khanna,tanvi.khanna.s91@edu.example.com,ECE2022021,ECE/2022/021,2,ECE,Electronics & Communication,5,2022,2022-2026,9229553265
+92,Pranav Rao,pranav.rao.s92@edu.example.com,ECE2021022,ECE/2021/022,2,ECE,Electronics & Communication,8,2021,2021-2025,9396889215
+93,Harsh Rao,harsh.rao.s93@edu.example.com,ECE2022023,ECE/2022/023,2,ECE,Electronics & Communication,5,2022,2022-2026,9487493096
+94,Karan Srivastava,karan.srivastava.s94@edu.example.com,ECE2021024,ECE/2021/024,2,ECE,Electronics & Communication,7,2021,2021-2025,9694164665
+95,Ishaan Sharma,ishaan.sharma.s95@edu.example.com,ECE2023025,ECE/2023/025,2,ECE,Electronics & Communication,4,2023,2023-2027,9604011128
+96,Bharat Tiwari,bharat.tiwari.s96@edu.example.com,ECE2022026,ECE/2022/026,2,ECE,Electronics & Communication,5,2022,2022-2026,9982739959
+97,Rakesh Gupta,rakesh.gupta.s97@edu.example.com,ECE2021027,ECE/2021/027,2,ECE,Electronics & Communication,7,2021,2021-2025,9970957171
+98,Kabir Yadav,kabir.yadav.s98@edu.example.com,ECE2022028,ECE/2022/028,2,ECE,Electronics & Communication,5,2022,2022-2026,9932894596
+99,Vishal Rathore,vishal.rathore.s99@edu.example.com,ECE2022029,ECE/2022/029,2,ECE,Electronics & Communication,6,2022,2022-2026,9710561240
+100,Rahul Mehta,rahul.mehta.s100@edu.example.com,ECE2022030,ECE/2022/030,2,ECE,Electronics & Communication,5,2022,2022-2026,9268638768
+101,Mohit Sharma,mohit.sharma.s101@edu.example.com,ECE2022031,ECE/2022/031,2,ECE,Electronics & Communication,6,2022,2022-2026,9840206617
+102,Rohit Agarwal,rohit.agarwal.s102@edu.example.com,ECE2023032,ECE/2023/032,2,ECE,Electronics & Communication,4,2023,2023-2027,9854827139
+103,Suresh Rathore,suresh.rathore.s103@edu.example.com,ECE2023033,ECE/2023/033,2,ECE,Electronics & Communication,3,2023,2023-2027,9556489494
+104,Tanvi Nair,tanvi.nair.s104@edu.example.com,ECE2021034,ECE/2021/034,2,ECE,Electronics & Communication,7,2021,2021-2025,9278158234
+105,Kabir Dey,kabir.dey.s105@edu.example.com,ECE2023035,ECE/2023/035,2,ECE,Electronics & Communication,4,2023,2023-2027,9851333320
+106,Arvind Banerjee,arvind.banerjee.s106@edu.example.com,ECE2021036,ECE/2021/036,2,ECE,Electronics & Communication,7,2021,2021-2025,9563887247
+107,Rohit Thakur,rohit.thakur.s107@edu.example.com,ECE2023037,ECE/2023/037,2,ECE,Electronics & Communication,3,2023,2023-2027,9921155204
+108,Ajay Tripathi,ajay.tripathi.s108@edu.example.com,ECE2023038,ECE/2023/038,2,ECE,Electronics & Communication,4,2023,2023-2027,9398668350
+109,Gaurav Desai,gaurav.desai.s109@edu.example.com,ECE2022039,ECE/2022/039,2,ECE,Electronics & Communication,6,2022,2022-2026,9457887167
+110,Neha Jain,neha.jain.s110@edu.example.com,ECE2022040,ECE/2022/040,2,ECE,Electronics & Communication,6,2022,2022-2026,9973559879
+111,Ananya Tiwari,ananya.tiwari.s111@edu.example.com,ECE2022041,ECE/2022/041,2,ECE,Electronics & Communication,5,2022,2022-2026,9929517022
+112,Lalit Dey,lalit.dey.s112@edu.example.com,ECE2022042,ECE/2022/042,2,ECE,Electronics & Communication,5,2022,2022-2026,9301415220
+113,Ritesh Gupta,ritesh.gupta.s113@edu.example.com,ECE2021043,ECE/2021/043,2,ECE,Electronics & Communication,8,2021,2021-2025,9689720101
+114,Kabir Verma,kabir.verma.s114@edu.example.com,ECE2023044,ECE/2023/044,2,ECE,Electronics & Communication,3,2023,2023-2027,9862123506
+115,Manoj Sen,manoj.sen.s115@edu.example.com,ECE2021045,ECE/2021/045,2,ECE,Electronics & Communication,7,2021,2021-2025,9221827951
+116,Arvind Agarwal,arvind.agarwal.s116@edu.example.com,ECE2023046,ECE/2023/046,2,ECE,Electronics & Communication,4,2023,2023-2027,9546129354
+117,Manoj Nair,manoj.nair.s117@edu.example.com,ECE2022047,ECE/2022/047,2,ECE,Electronics & Communication,5,2022,2022-2026,9743576792
+118,Simran Malhotra,simran.malhotra.s118@edu.example.com,ECE2023048,ECE/2023/048,2,ECE,Electronics & Communication,4,2023,2023-2027,9981058292
+119,Sanjeev Rathore,sanjeev.rathore.s119@edu.example.com,ECE2023049,ECE/2023/049,2,ECE,Electronics & Communication,4,2023,2023-2027,9259553112
+120,Diya Yadav,diya.yadav.s120@edu.example.com,ECE2023050,ECE/2023/050,2,ECE,Electronics & Communication,4,2023,2023-2027,9588922557
+121,Rakesh Chatterjee,rakesh.chatterjee.s121@edu.example.com,ECE2021051,ECE/2021/051,2,ECE,Electronics & Communication,8,2021,2021-2025,9146865930
+122,Swati Nair,swati.nair.s122@edu.example.com,ECE2022052,ECE/2022/052,2,ECE,Electronics & Communication,5,2022,2022-2026,9235555899
+123,Ritesh Joshi,ritesh.joshi.s123@edu.example.com,ECE2023053,ECE/2023/053,2,ECE,Electronics & Communication,4,2023,2023-2027,9116479358
+124,Dev Desai,dev.desai.s124@edu.example.com,ECE2022054,ECE/2022/054,2,ECE,Electronics & Communication,6,2022,2022-2026,9769219685
+125,Sakshi Kapoor,sakshi.kapoor.s125@edu.example.com,ECE2023055,ECE/2023/055,2,ECE,Electronics & Communication,4,2023,2023-2027,9680911523
+126,Rohit Kumar,rohit.kumar.s126@edu.example.com,ECE2022056,ECE/2022/056,2,ECE,Electronics & Communication,5,2022,2022-2026,9916440738
+127,Amit Patel,amit.patel.s127@edu.example.com,ECE2022057,ECE/2022/057,2,ECE,Electronics & Communication,5,2022,2022-2026,9415001254
+128,Sanjay Tripathi,sanjay.tripathi.s128@edu.example.com,ECE2022058,ECE/2022/058,2,ECE,Electronics & Communication,5,2022,2022-2026,9282518553
+129,Vijay Pandey,vijay.pandey.s129@edu.example.com,ECE2022059,ECE/2022/059,2,ECE,Electronics & Communication,5,2022,2022-2026,9349310440
+130,Aditya Dey,aditya.dey.s130@edu.example.com,ECE2022060,ECE/2022/060,2,ECE,Electronics & Communication,5,2022,2022-2026,9179308612
+131,Komal Tiwari,komal.tiwari.s131@edu.example.com,ECE2022061,ECE/2022/061,2,ECE,Electronics & Communication,6,2022,2022-2026,9313907621
+132,Sakshi Thakur,sakshi.thakur.s132@edu.example.com,ECE2022062,ECE/2022/062,2,ECE,Electronics & Communication,6,2022,2022-2026,9850845198
+133,Uday Sharma,uday.sharma.s133@edu.example.com,ECE2023063,ECE/2023/063,2,ECE,Electronics & Communication,3,2023,2023-2027,9751124015
+134,Sunil Bose,sunil.bose.s134@edu.example.com,ECE2021064,ECE/2021/064,2,ECE,Electronics & Communication,7,2021,2021-2025,9766676815
+135,Ayaan Khanna,ayaan.khanna.s135@edu.example.com,ECE2022065,ECE/2022/065,2,ECE,Electronics & Communication,5,2022,2022-2026,9722312633
+136,Anjali Sen,anjali.sen.s136@edu.example.com,ECE2021066,ECE/2021/066,2,ECE,Electronics & Communication,7,2021,2021-2025,9241905500
+137,Tanvi Pillai,tanvi.pillai.s137@edu.example.com,ECE2022067,ECE/2022/067,2,ECE,Electronics & Communication,6,2022,2022-2026,9965960427
+138,Vinay Singh,vinay.singh.s138@edu.example.com,ECE2021068,ECE/2021/068,2,ECE,Electronics & Communication,7,2021,2021-2025,9826197069
+139,Tanya Sharma,tanya.sharma.s139@edu.example.com,ECE2022069,ECE/2022/069,2,ECE,Electronics & Communication,5,2022,2022-2026,9588322781
+140,Radha Joshi,radha.joshi.s140@edu.example.com,ECE2023070,ECE/2023/070,2,ECE,Electronics & Communication,3,2023,2023-2027,9606244434
+141,Riya Singh,riya.singh.s141@edu.example.com,MECH2023001,MECH/2023/001,3,MECH,Mechanical Engineering,4,2023,2023-2027,9852775879
+142,Ayaan Patel,ayaan.patel.s142@edu.example.com,MECH2022002,MECH/2022/002,3,MECH,Mechanical Engineering,6,2022,2022-2026,9224683417
+143,Swati Dey,swati.dey.s143@edu.example.com,MECH2022003,MECH/2022/003,3,MECH,Mechanical Engineering,6,2022,2022-2026,9730651895
+144,Ankit Sen,ankit.sen.s144@edu.example.com,MECH2022004,MECH/2022/004,3,MECH,Mechanical Engineering,5,2022,2022-2026,9841183219
+145,Sachin Das,sachin.das.s145@edu.example.com,MECH2021005,MECH/2021/005,3,MECH,Mechanical Engineering,8,2021,2021-2025,9684615760
+146,Priya Mishra,priya.mishra.s146@edu.example.com,MECH2022006,MECH/2022/006,3,MECH,Mechanical Engineering,5,2022,2022-2026,9811642514
+147,Sanjay Reddy,sanjay.reddy.s147@edu.example.com,MECH2023007,MECH/2023/007,3,MECH,Mechanical Engineering,3,2023,2023-2027,9173669588
+148,Rohit Malhotra,rohit.malhotra.s148@edu.example.com,MECH2021008,MECH/2021/008,3,MECH,Mechanical Engineering,7,2021,2021-2025,9397721596
+149,Pavan Mishra,pavan.mishra.s149@edu.example.com,MECH2023009,MECH/2023/009,3,MECH,Mechanical Engineering,3,2023,2023-2027,9241522640
+150,Sanjeev Kapoor,sanjeev.kapoor.s150@edu.example.com,MECH2021010,MECH/2021/010,3,MECH,Mechanical Engineering,7,2021,2021-2025,9384936197
+151,Hemant Mishra,hemant.mishra.s151@edu.example.com,MECH2023011,MECH/2023/011,3,MECH,Mechanical Engineering,3,2023,2023-2027,9611365210
+152,Ishaan Banerjee,ishaan.banerjee.s152@edu.example.com,MECH2023012,MECH/2023/012,3,MECH,Mechanical Engineering,3,2023,2023-2027,9760465943
+153,Amit Gupta,amit.gupta.s153@edu.example.com,MECH2022013,MECH/2022/013,3,MECH,Mechanical Engineering,6,2022,2022-2026,9557707813
+154,Dev Kumar,dev.kumar.s154@edu.example.com,MECH2022014,MECH/2022/014,3,MECH,Mechanical Engineering,5,2022,2022-2026,9170525764
+155,Manoj Kapoor,manoj.kapoor.s155@edu.example.com,MECH2022015,MECH/2022/015,3,MECH,Mechanical Engineering,6,2022,2022-2026,9587173220
+156,Manoj Mehta,manoj.mehta.s156@edu.example.com,MECH2022016,MECH/2022/016,3,MECH,Mechanical Engineering,6,2022,2022-2026,9345343109
+157,Vidya Sen,vidya.sen.s157@edu.example.com,MECH2023017,MECH/2023/017,3,MECH,Mechanical Engineering,3,2023,2023-2027,9435596237
+158,Radha Nair,radha.nair.s158@edu.example.com,MECH2023018,MECH/2023/018,3,MECH,Mechanical Engineering,4,2023,2023-2027,9172083844
+159,Harsh Das,harsh.das.s159@edu.example.com,MECH2021019,MECH/2021/019,3,MECH,Mechanical Engineering,7,2021,2021-2025,9729712082
+160,Neha Bose,neha.bose.s160@edu.example.com,MECH2023020,MECH/2023/020,3,MECH,Mechanical Engineering,4,2023,2023-2027,9874233009
+161,Nisha Joshi,nisha.joshi.s161@edu.example.com,MECH2023021,MECH/2023/021,3,MECH,Mechanical Engineering,3,2023,2023-2027,9266140258
+162,Naresh Das,naresh.das.s162@edu.example.com,MECH2021022,MECH/2021/022,3,MECH,Mechanical Engineering,8,2021,2021-2025,9716435189
+163,Tushar Yadav,tushar.yadav.s163@edu.example.com,MECH2021023,MECH/2021/023,3,MECH,Mechanical Engineering,8,2021,2021-2025,9131088245
+164,Kavya Bose,kavya.bose.s164@edu.example.com,MECH2021024,MECH/2021/024,3,MECH,Mechanical Engineering,7,2021,2021-2025,9253815116
+165,Amit Kumar,amit.kumar.s165@edu.example.com,MECH2023025,MECH/2023/025,3,MECH,Mechanical Engineering,3,2023,2023-2027,9503935666
+166,Radha Khanna,radha.khanna.s166@edu.example.com,MECH2023026,MECH/2023/026,3,MECH,Mechanical Engineering,4,2023,2023-2027,9934120892
+167,Mohit Gupta,mohit.gupta.s167@edu.example.com,MECH2023027,MECH/2023/027,3,MECH,Mechanical Engineering,3,2023,2023-2027,9392168202
+168,Ritesh Sen,ritesh.sen.s168@edu.example.com,MECH2022028,MECH/2022/028,3,MECH,Mechanical Engineering,5,2022,2022-2026,9910614025
+169,Jay Agarwal,jay.agarwal.s169@edu.example.com,MECH2023029,MECH/2023/029,3,MECH,Mechanical Engineering,4,2023,2023-2027,9665791188
+170,Shyam Gupta,shyam.gupta.s170@edu.example.com,MECH2021030,MECH/2021/030,3,MECH,Mechanical Engineering,7,2021,2021-2025,9423646570
+171,Vikram Kapoor,vikram.kapoor.s171@edu.example.com,MECH2021031,MECH/2021/031,3,MECH,Mechanical Engineering,7,2021,2021-2025,9634063428
+172,Jatin Shah,jatin.shah.s172@edu.example.com,MECH2023032,MECH/2023/032,3,MECH,Mechanical Engineering,4,2023,2023-2027,9177390472
+173,Tarun Singh,tarun.singh.s173@edu.example.com,MECH2022033,MECH/2022/033,3,MECH,Mechanical Engineering,6,2022,2022-2026,9715683222
+174,Vidya Verma,vidya.verma.s174@edu.example.com,MECH2022034,MECH/2022/034,3,MECH,Mechanical Engineering,5,2022,2022-2026,9960413104
+175,Gaurav Ghosh,gaurav.ghosh.s175@edu.example.com,MECH2021035,MECH/2021/035,3,MECH,Mechanical Engineering,7,2021,2021-2025,9567804106
+176,Tanya Khanna,tanya.khanna.s176@edu.example.com,MECH2023036,MECH/2023/036,3,MECH,Mechanical Engineering,4,2023,2023-2027,9337911187
+177,Jay Tripathi,jay.tripathi.s177@edu.example.com,MECH2023037,MECH/2023/037,3,MECH,Mechanical Engineering,3,2023,2023-2027,9933468715
+178,Sachin Joshi,sachin.joshi.s178@edu.example.com,MECH2021038,MECH/2021/038,3,MECH,Mechanical Engineering,8,2021,2021-2025,9311818984
+179,Pavan Jain,pavan.jain.s179@edu.example.com,MECH2022039,MECH/2022/039,3,MECH,Mechanical Engineering,6,2022,2022-2026,9831361497
+180,Manish Banerjee,manish.banerjee.s180@edu.example.com,MECH2021040,MECH/2021/040,3,MECH,Mechanical Engineering,8,2021,2021-2025,9574817290
+181,Nisha Saxena,nisha.saxena.s181@edu.example.com,MECH2021041,MECH/2021/041,3,MECH,Mechanical Engineering,8,2021,2021-2025,9595792218
+182,Varun Singh,varun.singh.s182@edu.example.com,MECH2023042,MECH/2023/042,3,MECH,Mechanical Engineering,3,2023,2023-2027,9760360225
+183,Ramesh Yadav,ramesh.yadav.s183@edu.example.com,MECH2023043,MECH/2023/043,3,MECH,Mechanical Engineering,3,2023,2023-2027,9582897882
+184,Ajay Saxena,ajay.saxena.s184@edu.example.com,MECH2021044,MECH/2021/044,3,MECH,Mechanical Engineering,7,2021,2021-2025,9583745511
+185,Ashish Iyer,ashish.iyer.s185@edu.example.com,MECH2021045,MECH/2021/045,3,MECH,Mechanical Engineering,7,2021,2021-2025,9859803019
+186,Tushar Pillai,tushar.pillai.s186@edu.example.com,MECH2022046,MECH/2022/046,3,MECH,Mechanical Engineering,6,2022,2022-2026,9403754671
+187,Shyam Gupta,shyam.gupta.s187@edu.example.com,MECH2023047,MECH/2023/047,3,MECH,Mechanical Engineering,4,2023,2023-2027,9170772317
+188,Varun Tiwari,varun.tiwari.s188@edu.example.com,MECH2023048,MECH/2023/048,3,MECH,Mechanical Engineering,3,2023,2023-2027,9457944766
+189,Meera Khanna,meera.khanna.s189@edu.example.com,MECH2023049,MECH/2023/049,3,MECH,Mechanical Engineering,4,2023,2023-2027,9238460786
+190,Sakshi Malhotra,sakshi.malhotra.s190@edu.example.com,MECH2021050,MECH/2021/050,3,MECH,Mechanical Engineering,7,2021,2021-2025,9793663866
+191,Payal Khanna,payal.khanna.s191@edu.example.com,MECH2021051,MECH/2021/051,3,MECH,Mechanical Engineering,7,2021,2021-2025,9466932310
+192,Manish Singh,manish.singh.s192@edu.example.com,MECH2022052,MECH/2022/052,3,MECH,Mechanical Engineering,5,2022,2022-2026,9645127678
+193,Vijay Reddy,vijay.reddy.s193@edu.example.com,MECH2023053,MECH/2023/053,3,MECH,Mechanical Engineering,4,2023,2023-2027,9265627642
+194,Nikhil Banerjee,nikhil.banerjee.s194@edu.example.com,MECH2021054,MECH/2021/054,3,MECH,Mechanical Engineering,8,2021,2021-2025,9491163514
+195,Sumit Shah,sumit.shah.s195@edu.example.com,MECH2023055,MECH/2023/055,3,MECH,Mechanical Engineering,3,2023,2023-2027,9432288618
+196,Ritesh Dey,ritesh.dey.s196@edu.example.com,MECH2022056,MECH/2022/056,3,MECH,Mechanical Engineering,6,2022,2022-2026,9639991949
+197,Sunil Reddy,sunil.reddy.s197@edu.example.com,MECH2022057,MECH/2022/057,3,MECH,Mechanical Engineering,5,2022,2022-2026,9788460744
+198,Girish Mishra,girish.mishra.s198@edu.example.com,MECH2022058,MECH/2022/058,3,MECH,Mechanical Engineering,5,2022,2022-2026,9919390458
+199,Kunal Ghosh,kunal.ghosh.s199@edu.example.com,MECH2021059,MECH/2021/059,3,MECH,Mechanical Engineering,7,2021,2021-2025,9976928440
+200,Bharat Mukherjee,bharat.mukherjee.s200@edu.example.com,MECH2023060,MECH/2023/060,3,MECH,Mechanical Engineering,4,2023,2023-2027,9353164777
