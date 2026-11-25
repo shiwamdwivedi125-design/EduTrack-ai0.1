@@ -21,7 +21,13 @@ export default function LoginPage() {
       else if (user.role === 'teacher') navigate('/teacher/dashboard');
       else navigate('/student/dashboard');
     } catch (err) {
-      toast.error(err.response?.data?.detail || 'Invalid email or password');
+      const status = err.response?.status;
+      const message = status === 503
+        ? 'The service is temporarily unavailable. Please try again shortly.'
+        : status === 401
+          ? 'Invalid email or password. Try one of the demo accounts below.'
+          : err.response?.data?.detail || 'Could not connect to EduTrack AI. Please try again.';
+      toast.error(message);
     } finally {
       setLoading(false);
     }
@@ -89,7 +95,7 @@ export default function LoginPage() {
           <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-3">
             Demo Accounts (Click to Autofill)
           </p>
-          <div className="grid grid-cols-2 gap-2 text-xs">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 text-xs">
             <button
               type="button"
               onClick={() => fillDemo('admin@edutrack.ai', 'Admin@123')}
@@ -106,9 +112,17 @@ export default function LoginPage() {
               <p className="font-semibold text-slate-800">Teacher</p>
               <p className="text-slate-500 truncate">ramesh.kumar@edutrack.ai</p>
             </button>
+            <button
+              type="button"
+              onClick={() => fillDemo('jay.verma.s1@edu.example.com', 'Student@123')}
+              className="p-2.5 rounded-lg border border-slate-200 hover:border-blue-400 hover:bg-blue-50 text-left transition-colors"
+            >
+              <p className="font-semibold text-slate-800">Student</p>
+              <p className="text-slate-500 truncate">jay.verma.s1@edu.example.com</p>
+            </button>
           </div>
           <p className="text-[11px] text-slate-400 mt-3 text-center">
-            Student accounts: check <code>data/sample/students.csv</code> (password: <code>Student@123</code>)
+            Demo passwords: Admin@123, Teacher@123, Student@123
           </p>
         </div>
       </div>

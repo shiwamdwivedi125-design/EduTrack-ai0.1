@@ -220,6 +220,10 @@ def seed_students(db, dept_map, data):
                 db.add(student)
                 db.flush()
                 student_map[s["id"]] = student.id
+            else:
+                student = db.query(Student).filter(Student.user_id == existing.id).first()
+                if student:
+                    student_map[s["id"]] = student.id
         db.commit()
         print(f"    Students batch {batch_start}-{batch_start+batch_size} seeded")
 

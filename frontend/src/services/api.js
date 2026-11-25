@@ -20,7 +20,8 @@ api.interceptors.request.use((config) => {
 api.interceptors.response.use(
   (response) => response,
   (error) => {
-    if (error.response?.status === 401) {
+    const isLoginRequest = error.config?.url?.includes('/auth/login');
+    if (error.response?.status === 401 && !isLoginRequest) {
       localStorage.removeItem('token');
       localStorage.removeItem('user');
       window.location.href = '/login';
@@ -31,7 +32,7 @@ api.interceptors.response.use(
 
 // ─── Auth ───────────────────────────────────────────────────────
 export const authAPI = {
-  login: (email, password) => api.post('/auth/login', { email, password }),
+  login: (email, password) => api.post('/auth/login', { email: email.trim().toLowerCase(), password }),
   me: () => api.get('/auth/me'),
   changePassword: (old_password, new_password) =>
     api.post(`/auth/change-password?old_password=${old_password}&new_password=${new_password}`),

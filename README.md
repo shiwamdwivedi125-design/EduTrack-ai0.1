@@ -67,6 +67,8 @@ The repository includes a Render Blueprint in `render.yaml`. In Render, choose *
 
 The Blueprint uses Render's free plans, which may have sleep, resource, backup, or database-retention limitations. For persistent production use, select an appropriate paid PostgreSQL plan and disable `SEED_DEMO_DATA` after the demo database has been initialized. Demo credentials are listed above; do not use these accounts for real student data.
 
+The demo seeder checks for the sample student account before skipping, so it can complete a database where the administrator was already seeded but demo students were not. Existing student records are reused when repairing a partial seed.
+
 ## Database and Migrations
 
 Local SQLite is configured by default:

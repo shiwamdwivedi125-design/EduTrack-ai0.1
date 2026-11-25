@@ -13,7 +13,8 @@ router = APIRouter()
 
 @router.post("/login", response_model=TokenResponse)
 async def login(form_data: LoginRequest, db: Session = Depends(get_db), request: Request = None):
-    user = db.query(User).filter(User.email == form_data.email).first()
+    email = form_data.email.strip().lower()
+    user = db.query(User).filter(User.email == email).first()
     if not user or not verify_password(form_data.password, user.hashed_password):
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
@@ -52,11 +53,12 @@ async def register(payload: UserCreate, db: Session = Depends(get_db), current_u
     if current_user.role != "admin":
         raise HTTPException(status_code=403, detail="Only admins can register users")
     
-    if db.query(User).filter(User.email == payload.email).first():
+    email = payload.email.strip().lower()
+    if db.query(User).filter(User.email == email).first():
         raise HTTPException(status_code=400, detail="Email already registered")
     
     user = User(
-        email=payload.email,
+        email=email,
         hashed_password=get_password_hash(payload.password),
         full_name=payload.full_name,
         role=payload.role,

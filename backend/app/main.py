@@ -1,11 +1,15 @@
 """
 FastAPI Main Application - EduTrack AI
 """
-from fastapi import FastAPI
+from fastapi import FastAPI, Depends, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
+from sqlalchemy import text
+from sqlalchemy.exc import SQLAlchemyError
+from sqlalchemy.orm import Session
 import os
 from app.core.config import settings
+from app.database.session import get_db
 
 app = FastAPI(
     title="EduTrack AI API",
@@ -83,7 +87,11 @@ async def root():
 
 
 @app.get("/api/health", tags=["Health"])
-async def health_check():
+async def health_check(db: Session = Depends(get_db)):
+    try:
+        db.execute(text("SELECT 1"))
+    except SQLAlchemyError as exc:
+        raise HTTPException(status_code=503, detail="Database is unavailable") from exc
     return {"status": "healthy", "version": "1.0.0"}
 
 

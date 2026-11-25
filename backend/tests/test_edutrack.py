@@ -106,6 +106,12 @@ def test_health():
 
 def test_auth_login_and_me():
     token = get_token("admin@test.ai", "Admin@123")
+    normalized_email_login = client.post(
+        "/api/auth/login",
+        json={"email": " ADMIN@TEST.AI ", "password": "Admin@123"}
+    )
+    assert normalized_email_login.status_code == 200
+    assert normalized_email_login.json()["user"]["role"] == "admin"
     me = client.get("/api/auth/me", headers={"Authorization": f"Bearer {token}"})
     assert me.status_code == 200
     assert me.json()["role"] == "admin"
