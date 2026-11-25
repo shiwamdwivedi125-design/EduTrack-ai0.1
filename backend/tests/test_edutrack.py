@@ -129,6 +129,16 @@ def test_auth_login_and_me():
     assert bad.status_code == 401
 
 
+def test_login_reports_demo_data_initialization(monkeypatch):
+    monkeypatch.setenv("SEED_DEMO_DATA", "true")
+    response = client.post(
+        "/api/auth/login",
+        json={"email": "admin@test.ai", "password": "Admin@123"}
+    )
+    assert response.status_code == 503
+    assert "still being initialized" in response.json()["detail"]
+
+
 def test_role_permissions():
     student_token = get_token("student@test.ai", "Student@123")
     # Student cannot list all students or create student

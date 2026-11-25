@@ -1,9 +1,11 @@
 """Auth endpoints"""
+import os
+
 from fastapi import APIRouter, Depends, HTTPException, status, Request
 from fastapi.security import OAuth2PasswordRequestForm
 from sqlalchemy.orm import Session
 from app.database.session import get_db
-from app.models import User
+from app.models import Attendance, Marks, Student, User
 from app.core.security import verify_password, create_access_token, get_current_user, get_password_hash
 from app.schemas import LoginRequest, TokenResponse, UserOut, UserCreate
 from app.models import AuditLog
@@ -13,6 +15,20 @@ router = APIRouter()
 
 @router.post("/login", response_model=TokenResponse)
 async def login(form_data: LoginRequest, db: Session = Depends(get_db), request: Request = None):
+    if os.getenv("SEED_DEMO_DATA", "false").lower() == "true":
+        demo_data_ready = (
+            db.query(User).count() >= 209
+            and db.query(Student).count() >= 200
+            and db.query(Marks).count() > 0
+            and db.query(Attendance).count() > 0
+        )
+        if not demo_data_ready:
+            raise HTTPException(
+                status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+                detail="Demo accounts are still being initialized. Please try again shortly.",
+                headers={"Retry-After": "15"},
+            )
+
     email = form_data.email.strip().lower()
     user = db.query(User).filter(User.email == email).first()
     if not user or not verify_password(form_data.password, user.hashed_password):
